@@ -1,0 +1,31 @@
+$font-family-san-sans: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Meiryo";
+$font-family-serif: "YuMincho", "Yu Mincho", serif;
+
+$color-black: #333;
+$color-white: #fff;
+$color-blue: #1D6ADB;
+$color-blue-dark: #2666C4;
+$color-orange: #F7CF62;
+$color-orange-dark: #937A3B;
+$color-navy: #2F435F;
+$color-navy-dark: #09244B;
+
+$base-font-size: 1rem;
+$base-line-height: $base-font-size * 1.7;
+$base-margin: $base-line-height;
+
+$type-scale: (
+  -1: $base-font-size * 0.75,
+  0: $base-font-size, // 16px
+  1: $base-font-size * 1.25, // 20px
+  2: $base-font-size * 2, // 32px
+  3: $base-font-size * 2.5 // 40px
+);
+
+$line-heights: (
+  -1: $base-line-height,
+  0: $base-line-height,
+  1: $base-line-height * 2,
+  2: $base-line-height * 2,
+  3: $base-line-height * 3
+);

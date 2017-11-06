@@ -1,0 +1,41 @@
+.post-title {
+  position: relative;
+  margin-bottom: $base-line-height;
+  padding-top: $base-margin / 2;
+  padding-right: 0.5em;
+  padding-bottom: $base-margin / 2;
+  padding-left: 0.5em;
+  background-color: $color-blue;
+  z-index: auto;
+}
+
+.post-title::after {
+  position: absolute;
+  left: 0;
+  top: -18px;
+  content: url('./images/wave.svg');
+  height: 18px;
+  width: 100%;
+  z-index: -1;
+}
+
+.post-title::before {
+  position: absolute;
+  left: 10%;
+  top: -18px;
+  content: url('./images/wave-back.svg');
+  height: 18px;
+  width: 100%;
+  z-index: -1;
+}
+
+.post-title h1 {
+  margin-bottom: 0;
+  color: $color-white;
+  font-size: type-scale(3);
+  line-height: line-height(3);
+  font-family: $font-family-serif;
+  font-feature-settings: "palt";
+  font-weight: 600;
+  text-align: center;
+}

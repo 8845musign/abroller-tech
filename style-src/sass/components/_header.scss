@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: $base-margin;
+  padding-top: $base-margin;
+  text-align: center;
+  line-height: 1;
+}
+
+.header__link {
+  display: block;
+}
+
+.header__logo {
+  height: 60px;
+  vertical-align: bottom;
+  margin-bottom: $base-margin / 2;
+}
+
+.header__logo-type {
+  height: 20px;
+  vertical-align: bottom;
+}

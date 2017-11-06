@@ -1,0 +1,78 @@
+.post-content {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: $base-margin * 2;
+
+  @media (min-width: 980px + 30) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-family: $font-family-serif;
+    color: $color-blue-dark;
+    font-feature-settings: "palt";
+  }
+
+  h2,
+  h3 {
+    font-size: type-scale(2);
+    line-height: line-height(2);
+    font-weight: 300;
+  }
+
+  h2 {
+    position: relative;
+    z-index: auto;
+  }
+
+  h2::before {
+    position: absolute;
+    left: -28px;
+    top: -16px;
+    width: 70px;
+    content: url('./images/icon-heading.svg');
+    z-index: -1;
+  }
+
+  h4 {
+    font-size: type-scale(1);
+    line-height: line-height(1);
+    font-weight: 700;
+  }
+
+  p {
+    color: $color-navy;
+    font-weight: 200;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  ol,
+  ul {
+    color: $color-navy;
+  }
+
+  blockquote {
+    position: relative;
+    margin: 0;
+  }
+
+  blockquote::before {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: $color-navy
+  }
+}

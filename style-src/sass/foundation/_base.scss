@@ -1,0 +1,37 @@
+html {
+  font-family: $font-family-san-sans;
+  line-height: $base-line-height;
+  color: $color-black;
+  font-size: $base-font-size;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: $base-line-height;
+}
+
+a {
+  color: $color-blue;
+  font-weight: 300;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: $color-orange;
+}
+
+a:active {
+  text-decoration: none;
+}

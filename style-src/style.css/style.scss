@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*
+Theme Name: abroller tech
+Theme URI: https://abroller.tech
+Author: 8845musign
+Author URI: https://github.com/8845musign
+*/
+html {
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Meiryo", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  font-size: 125%;
+}
+
+body {
+  margin: 0;
+  background-color: #e8eaed;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
+header > p {
+  font-weight: bold;
+  font-style: italic;
+  -webkit-font-feature-settings : "palt";
+          font-feature-settings : "palt";
+}
+
+header > p > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.content {
+}
+
+article {
+}
+
+.post-title {
+  background-color: #fff;
+}
+
+.post-title > h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+article > p {
+  padding-left: 1em;
+  padding-right: 1em;
+}
