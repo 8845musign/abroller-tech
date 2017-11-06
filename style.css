@@ -512,8 +512,11 @@ a:active {
     line-height: 3.4rem;
     font-weight: 300; }
   .post-content h2 {
+    margin-top: 3.4rem;
     position: relative;
     z-index: auto; }
+  .post-content h2:first-child {
+    margin-top: 0; }
   .post-content h2::before {
     position: absolute;
     left: -28px;

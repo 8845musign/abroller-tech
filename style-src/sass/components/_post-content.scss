@@ -27,8 +27,13 @@
   }
 
   h2 {
+    margin-top: $base-margin * 2;
     position: relative;
     z-index: auto;
+  }
+
+  h2:first-child {
+    margin-top: 0;
   }
 
   h2::before {
