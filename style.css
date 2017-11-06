@@ -448,6 +448,9 @@ a:active {
 
 .post-title {
   position: relative;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
   margin-bottom: 1.7rem;
   padding-top: 0.85rem;
   padding-right: 0.5em;
@@ -605,10 +608,13 @@ a:active {
 
 .footer {
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
   padding-top: 1.7rem;
   padding-bottom: 1.7rem;
   z-index: auto;
-  background-color: #1D6ADB; }
+  background-color: #1D6ADB;
+  overflow: hidden; }
 
 .footer::after {
   position: absolute;

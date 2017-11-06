@@ -1,9 +1,12 @@
 .footer {
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
   padding-top: $base-margin;
   padding-bottom: $base-margin;
   z-index: auto;
   background-color: $color-blue;
+  overflow: hidden;
 }
 
 .footer::after {
