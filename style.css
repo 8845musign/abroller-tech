@@ -420,7 +420,7 @@ ul {
 
 a {
   color: #1D6ADB;
-  font-weight: 300; }
+  font-weight: 500; }
 
 a:hover,
 a:active,
@@ -529,7 +529,7 @@ a:active {
     font-weight: 700; }
   .post-content p {
     color: #2F435F;
-    font-weight: 200; }
+    font-weight: 500; }
   .post-content strong {
     font-weight: 600; }
   .post-content ol,
