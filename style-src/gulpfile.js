@@ -6,6 +6,7 @@ const notify = require('gulp-notify');
 const browserSync = require('browser-sync').create();
 const reload = browserSync.reload;
 const sass = require('gulp-sass');
+const cleanCSS = require('gulp-clean-css');
 
 exports.css = () => {
   return gulp.src('./sass/style.scss')
@@ -14,6 +15,7 @@ exports.css = () => {
     }))
     .pipe(sass())
     .pipe(postcss())
+    .pipe(cleanCSS())
     .pipe(rename('style.css'))
     .pipe(gulp.dest('../'));
 }

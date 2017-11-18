@@ -12,6 +12,7 @@
     "autoprefixer": "^7.1.6",
     "browser-sync": "^2.18.13",
     "gulp": "gulpjs/gulp#4.0",
+    "gulp-clean-css": "^3.9.0",
     "gulp-notify": "^3.0.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
