@@ -86,4 +86,10 @@
     height: auto;
     vertical-align: bottom;
   }
+
+  // for prism.js
+  pre[class*="language-"] {
+    margin-top: 0;
+    margin-bottom: $base-margin;
+  }
 }
