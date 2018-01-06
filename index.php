@@ -20,7 +20,7 @@
     the_posts_pagination( array(
       'prev_text' => '前へ',
       'next_text' => '次へ',
-      'screen_reader_text' => 'ページネーション',
+      'screen_reader_text' => '他のページへ移動',
     ) );
   ?>
 
