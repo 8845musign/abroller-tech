@@ -1,0 +1,44 @@
+.navigation.pagination {
+  margin-bottom: $base-margin * 4;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px;
+  text-align: center;
+
+  .screen-reader-text {
+    @include sr-only();
+  }
+
+  .nav-links {
+    font-size: type-scale(1);
+    line-height: line-height(1);
+    font-family: $font-family-serif;
+  }
+
+  .prev {
+
+  }
+
+  .next {
+
+  }
+
+  .page-numbers {
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+
+  .page-numbers:hover,
+  .page-numbers:active,
+  .page-numbers:focus {
+    border-color: $color-blue;
+  }
+
+  .page-numbers.current:hover,
+  .page-numbers.current:active,
+  .page-numbers.current:focus {
+    border-color: rgba(0, 0, 0, 0);
+  }
+}

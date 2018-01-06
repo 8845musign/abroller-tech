@@ -16,6 +16,14 @@
     <?php endif; ?>
   </main>
 
+  <?php
+    the_posts_pagination( array(
+      'prev_text' => '前へ',
+      'next_text' => '次へ',
+      'screen_reader_text' => 'ページネーション',
+    ) );
+  ?>
+
   <?php get_footer(); ?>
   <?php wp_footer(); ?>
 </body>

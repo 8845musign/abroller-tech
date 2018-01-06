@@ -9,6 +9,7 @@ Author URI: https://github.com/8845musign
 @import 'foundation/variables';
 @import 'foundation/functions';
 @import 'foundation/normalize';
+@import 'foundation/mixin';
 @import 'foundation/base';
 
 @import 'components/header';
@@ -19,4 +20,5 @@ Author URI: https://github.com/8845musign
 @import 'components/post-date';
 @import 'components/post-categories';
 @import 'components/post-footer';
+@import 'components/navigation-pagination';
 @import 'components/footer';
