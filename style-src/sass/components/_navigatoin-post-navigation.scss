@@ -16,7 +16,7 @@
   }
 
   .nav-links {
-    display: flex;
+    @include clearfix();
   }
 
   .nav-links-icon {
@@ -35,15 +35,21 @@
     right: 0;
   }
 
+  .nav-previous,
+  .nav-next {
+    box-sizing: border-box;
+    width: 50%;
+  }
+
   .nav-previous {
-    flex: 1 1 50%;
+    float: left;
     position: relative;
     padding-left: 2em;
     padding-right: 1em;
   }
 
   .nav-next {
-    flex: 1 1 50%;
+    float: right;
     position: relative;
     padding-left: 1em;
     padding-right: 2em;
