@@ -1,12 +1,12 @@
 .post-content {
-  max-width: 980px;
+  max-width: 40em;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
   padding-bottom: $base-margin * 2;
 
-  @media (min-width: 980px + 30) {
+  @media (min-width: calc(40em + 30)) {
     padding-right: 0;
     padding-left: 0;
   }
