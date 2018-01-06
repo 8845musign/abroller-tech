@@ -1,0 +1,53 @@
+.navigation.post-navigation {
+  max-width: 40em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: $base-margin * 4;
+
+  @media (min-width: calc(40em + 30)) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .screen-reader-text {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links-icon {
+    display: inline-block;
+  }
+
+  .nav-links-icon.prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .nav-links-icon.next {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .nav-previous {
+    flex: 1 1 50%;
+    position: relative;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+
+  .nav-next {
+    flex: 1 1 50%;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 2em;
+  }
+
+
+}

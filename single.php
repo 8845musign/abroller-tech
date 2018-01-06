@@ -49,6 +49,13 @@
     </div>
   </main>
 
+  <?php
+    the_post_navigation( array(
+      'prev_text' => '<span class="nav-links-icon prev">←</span>%title',
+      'next_text' => '%title<span class="nav-links-icon next">→</span>',
+    ) );
+  ?>
+
   <?php get_footer(); ?>
   <?php wp_footer(); ?>
 </body>

@@ -27,7 +27,7 @@ exports.reload = (done) => {
 
 exports.watch = () => {
   browserSync.init({
-    proxy: "wocker.dev"
+    proxy: "abrollertech.local"
   })
 
   return gulp.watch('./sass/**/*.scss', gulp.series(['css', 'reload']))
